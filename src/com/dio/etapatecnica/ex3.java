@@ -9,7 +9,6 @@ public class ex3 {
         double peso;
         int quantidadePessoas = 10;
         int i = 1;
-         double soma = 0;
          double pesoPessoas1a10 = 0;
          double pesoPessoas11a20 = 0;
          double pesoPessoas21a30 = 0;
@@ -18,7 +17,6 @@ public class ex3 {
          int quantidadePessoas11a20 = 0;
          int quantidadePessoas21a30 = 0;
          int quantidadePessoas31mais = 0;
-         double media;
         do {
             System.out.println("Digite a idade (em anos) da pessoa " + i +":");
             idade = scan.nextInt();
@@ -46,8 +44,6 @@ public class ex3 {
         System.out.println("Média de peso das pessoas de 11 a 20 anos: " + pesoPessoas11a20/quantidadePessoas11a20);
         System.out.println("Média de peso das pessoas de 21 a 30 anos: " + pesoPessoas21a30/quantidadePessoas21a30);
         System.out.println("Média de peso das pessoas maiores de 31 anos: " + pesoPessoas31mais/quantidadePessoas31mais);
-
-
         }
     }
 
